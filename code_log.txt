@@ -1,0 +1,16 @@
+2026-08-16 23:02:40 : Preliminaries complete. Initiating ETL process
+2026-08-16 23:02:40 : Data extraction started
+2026-08-16 23:02:41 : Data extraction complete
+2026-08-16 23:02:41 : Transformation process started
+2026-08-16 23:02:42 : Transformation process complete
+2026-08-16 23:02:42 : Loading data to CSV started
+2026-08-16 23:02:42 : Data saved to CSV file
+2026-08-16 23:02:42 : Loading data to Database started
+2026-08-16 23:02:42 : Data loaded to Database as table
+2026-08-16 23:02:42 : Running query: SELECT * FROM Largest_banks
+2026-08-16 23:02:42 : Process complete
+2026-08-16 23:02:42 : Running query: SELECT AVG(MC_GBP_Billion) FROM Largest_banks
+2026-08-16 23:02:42 : Process complete
+2026-08-16 23:02:42 : Running query: SELECT Name FROM Largest_banks LIMIT 5
+2026-08-16 23:02:42 : Process complete
+2026-08-16 23:02:42 : Server Connection closed
